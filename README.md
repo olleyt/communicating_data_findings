@@ -5,6 +5,7 @@
 
 The data consists of information regarding 113,937 loans with 81 variables on each loan, including loan amount, borrower rate (or interest rate), current loan status, borrower income, loan rating, own Prosper Score and Prosper Rating and many others. 
 
+Note: the dataset will not be published in GitHub due to Prosper copyright restrictions.
 
 However, the data set will be wrangled and cleaned for this project to select only loans where Prosper Score and other variables of interest are available.
 It was my choice not to compute missing values but rather filter out records with missing values for ProsperScore, BankcardUtilization, DebtToIncomeRatio, , and DelinquenciesLast7Years columns. Leaving missing values was not a good option either as it could skew the analysis.
